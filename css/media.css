@@ -1,0 +1,62 @@
+
+
+/* sm */
+
+@media screen and (max-width:768px) 
+{
+#contact .layer{
+    display: flex;
+     flex-direction: column;
+   
+}
+#task .layer{
+    display: flex;
+    flex-direction: column;
+}
+#task .data{
+    width: 100%;
+}
+#task .enter{
+    width: 100%;
+}
+}
+
+/* lg */
+@media screen and (max-width:992px) 
+{
+    #contact .layer{
+        display: flex;
+         flex-direction: column;
+       
+    }
+    #task .layer{
+        display: flex;
+        flex-direction: column;
+    }
+    #task .data{
+        width: 100%;
+    }
+    #task .enter{
+        width: 100%;
+    }
+
+    #About{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*xlg
+@media screen and (min-width:1200px) 
+{
+.container{
+    width: 1170px;
+}
+}
+
+
+*/
+
+
+/*header*/
